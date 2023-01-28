@@ -31,6 +31,7 @@ class OpearacionesBas:
         self.res=self.num1*self.num2
         print("La multi es: {}".format(self.res))
 
+
     def divi(self):
         #num1=12
         #num2=10
@@ -61,6 +62,7 @@ def main():
         if(opcion ==4): 
                     obj=OpearacionesBas(num1,num2)
                     obj.divi
+        print("La resta es: {}".format(self.res))
 
         
 
